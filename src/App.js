@@ -4,7 +4,7 @@ import {useState} from 'react';
 import image1 from '../src/assets/rick-morty.png'
 import Characters from '../src/components/Characters';
 
-function App() {
+function App() { 
 
   const [characters,setCharacters] = useState(null)
 
