@@ -14,7 +14,7 @@ function App() {
     console.log(api);
     const characterApi = await api.json();
     console.log(characterApi);
-
+ 
     console.log(characters);
     setCharacters(characterApi.results);
     console.log(characters);
