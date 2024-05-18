@@ -13,7 +13,7 @@ function App() {
     const api = await fetch('https://rickandmortyapi.com/api/character')
     console.log(api);
     const characterApi = await api.json();
-    console.log(characterApi);
+    console.log(characterApi);   
  
     console.log(characters);
     setCharacters(characterApi.results);
